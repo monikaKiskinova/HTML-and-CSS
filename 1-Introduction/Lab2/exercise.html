@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity Exercise</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+
+<body>
+    <p id="unique" class="highlight">This is a paragraph.</p>
+
+    <div id="unique-element">Unique Element</div>
+    <div>Element</div>
+
+    <form>
+        <input type="text" placeholder="Text input">
+        <input type="submit" value="Submit">
+    </form>
+
+    <section>
+        <a href="https://example.com">Example Link</a>
+        <a href="https://another.com">Another Link</a>
+    </section>
+
+    <div>
+        <p>Descendant</p>
+        <div>
+            <p>Child</p>
+        </div>
+    </div>
+
+    <div class="box">Box Model Example</div>
+
+    <div>
+        <div class="block">Block element</div>
+        <span class="inline">Inline element</span>
+        <div class="inline-block">Inline-block element</div>
+    </div>
+
+    <div class="width-example">Resize the window to see me change!</div>
+    <div class="height-example">Resize the window to see me change!</div>
+
+    <div class="box-model">Box Model Example</div>
+    
+</body>
+
+</html>
