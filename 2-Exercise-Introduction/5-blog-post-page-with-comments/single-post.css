@@ -1,0 +1,11 @@
+span.author {
+    font-weight: bold;
+}
+
+main {
+    margin-bottom: 3em;
+}
+
+section.post-comments {
+    background-color: lightgray;
+}
