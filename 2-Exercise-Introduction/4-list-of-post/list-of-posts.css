@@ -1,0 +1,11 @@
+.date-and-author {
+    color: gray;
+}
+
+time {
+    font-style: italic;
+}
+
+span.author {
+    font-weight: bold;
+}
