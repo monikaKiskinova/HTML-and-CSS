@@ -1,0 +1,23 @@
+body {
+    border: 2px solid black;
+}
+
+div {
+    border: 2px solid black;
+}
+
+div {
+    margin: 10px 10px 20px 10px;
+}
+
+.uniform-padding {
+    padding: 20px;
+}
+
+.non-uniform-padding {
+    padding: 10px 30px 20px 40px;
+}
+
+.percentage-padding {
+    padding: 5%;
+}
