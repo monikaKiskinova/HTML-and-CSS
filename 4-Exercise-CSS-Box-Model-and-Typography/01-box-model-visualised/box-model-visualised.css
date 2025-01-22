@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px dashed #666;
+    padding: 35px;
+    margin: auto;
+    position: relative;
+    min-width: fit-content;
+}
+
+.margin {
+    width: 40%;
+    background-color: #ff966f;
+    margin-top: 50px;
+}
+
+.margin::before {
+    content: 'margin';
+}
+
+.border {
+    background-color: #ffe8c6;
+}
+
+.border::before {
+    content: 'border';
+}
+
+.padding {
+    background-color: #85eb85;
+}
+
+.padding::before {
+    content: 'padding';
+}
+
+.content {
+    background-color: #a3d2e2;
+    padding: 15px; 
+}
+
+p {
+    text-align: center;
+}
+
+::before {
+    position: absolute;
+    top: 0em;
+    left: 0.7em;
+}
