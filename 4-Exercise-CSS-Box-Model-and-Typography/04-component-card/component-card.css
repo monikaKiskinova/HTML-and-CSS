@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: Tahoma, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+article.card {
+    width: 400px;
+    background-color: #fff;
+    margin: 40px auto;
+    border-radius: 5px;
+    contain: content;
+    box-shadow: 0 0 15px #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.main-container > p {
+    padding-bottom: 35px;
+}
+
+.main-container {
+    padding: 20px 35px 30px 35px;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.web-address {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
