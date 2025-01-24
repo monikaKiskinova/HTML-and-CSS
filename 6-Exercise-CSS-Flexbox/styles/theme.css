@@ -1,0 +1,9 @@
+html {
+    background-color: #eee;
+}
+
+article {
+    background-color: white;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+}
