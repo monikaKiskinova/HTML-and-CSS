@@ -1,11 +1,10 @@
-@import url(../styles/reset.css);
-@import url(../styles/typography.css);
-@import url(../styles/theme.css);
+@import url(./styles/reset.css);
+@import url(./styles/typography.css);
+@import url(./styles/theme.css);
 
 article {
     width: 90vw;
     margin: 2em auto;
-    /* margin: 0 auto; */
 }
 
 hr {
@@ -15,7 +14,6 @@ hr {
 }
 
 h2 {
-    /* width: 50ch; */
     padding-top: 1em;
 }
 
