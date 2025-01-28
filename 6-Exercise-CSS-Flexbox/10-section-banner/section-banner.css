@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #eee;
+}
+
+div {
+    width: 60%;
+    background-color: white;
+    padding: 1.5em;
+    margin: 1.5em auto;
+    display: flex;
+    gap: 2em;
+}
+
+h2 {
+    font-size: 1em;
+    color: #666;
+}
+
+h3 {
+    padding-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+article p {
+    font-size: 0.8em;
+    color: #666;
+    padding-bottom: 1em;
+}
+
+button {
+    border: none;
+    border-radius: 0.2em;
+    padding: 0.5em 1em;
+}
+
+button.lets-chat {
+    background-color: blueviolet; 
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.8em;
+}
+
+section.blank {
+    width: calc((100% / 3) - 3em);
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    flex-shrink: 0;
+}
