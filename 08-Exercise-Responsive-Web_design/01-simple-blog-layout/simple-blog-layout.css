@@ -1,0 +1,31 @@
+.container {
+    background-color: white;
+    padding: 1.2em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    margin: 1em auto;
+    max-width: 90vw;
+    min-width: fit-content;
+    border-radius: 0.2em;
+}
+
+header, main, aside, footer {
+    border: 2px solid #ccc;
+    border-radius: 0.2em;
+    padding: 1.5em;
+}
+
+
+div.main-content {
+    margin: 0.8em 0;
+    display: flex;
+    gap: 0.8em;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 1 1 445px;
+}
+
+aside {
+    flex: 1 1 225px;
+}
