@@ -23,7 +23,6 @@ header nav a {
 header nav li {
     background-color: #444444;
     padding: 1em;
-    /* text-align: center; */
 }
 
 nav ul {
@@ -37,10 +36,6 @@ nav ul li {
 .main-container {
     display: flex;
 }
-
-/* header nav li+li {
-    border-top: 1px solid #ccc;
-} */
 
 main,
 aside {
@@ -73,17 +68,3 @@ footer {
         border-top: 1px solid #ccc;
     }
 }
-
-/* @media (min-width: 801px) {
-    nav ul {
-        display: flex;
-    }
-
-    nav ul li {
-        flex-grow: 1;
-    }
-
-    .main-container {
-        display: flex;
-    }
-} */
