@@ -40,3 +40,12 @@ body {
     min-height: 100dvh;
     padding: 2vw;
 }
+
+
+ul, ol {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
