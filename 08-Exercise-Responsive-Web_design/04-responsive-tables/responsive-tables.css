@@ -1,0 +1,46 @@
+@import url(../../styles/_styles.css);
+
+table {
+    width: 90vw;
+    margin: 1.5em auto;
+    /* background-color: white; */
+    background-color: transparent;
+    border: 2px solid #ccc;
+    border-collapse: collapse;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #eee;
+}
+
+tr {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 1em;
+    text-align: left;
+}
+
+td {
+    background-color: white;
+}
+
+/* th:nth-of-type(1) {
+    border-top-left-radius: 0.3em;
+}
+
+th:last-of-type {
+    border-top-right-radius: 0.3em;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 0.3em;
+}
+
+tr:last-child td:last-child  {
+    border-bottom-right-radius: 0.3em;
+} */
