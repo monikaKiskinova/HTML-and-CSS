@@ -16,6 +16,7 @@ div.table {
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
     border-radius: 0.3em;
     overflow: hidden;
+    min-width: fit-content;
 }
 
 table {
@@ -23,6 +24,7 @@ table {
     border-collapse: collapse;
     border-radius: 0.3em;
     overflow: hidden;
+    min-width: fit-content;
 }
 
 .table1 {
@@ -48,6 +50,7 @@ tr {
 th, td {
     padding: 1em;
     text-align: left;
+    min-width: fit-content;
 }
 
 td {
@@ -69,3 +72,66 @@ tr:last-child td:first-child {
 tr:last-child td:last-child  {
     border-bottom-right-radius: 0.3em;
 } */
+
+
+@media (max-width: 600px) {
+    table, table tbody, 
+    table tbody tr, 
+    table tbody tr td {
+        display: block;
+        width: 100%;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        border-bottom: none;
+    }
+
+    tr + tr {
+        border-top: 1px solid #ccc;
+    }
+
+    table > caption {
+        display: block;
+    }
+
+    table tbody tr td:before {
+        display: block;
+    }
+
+    .table1 tbody tr td:nth-of-type(1):before {
+        content: "Title 1";
+    }
+
+    .table1 tbody tr td:nth-of-type(2):before {
+        content: "Title 2";
+    }
+
+    .table1 tbody tr td:nth-of-type(3):before {
+        content: "Title 3";
+    }
+
+    .table2 tbody tr td:nth-of-type(1):before {
+        content: "Header 1";
+    }
+
+    .table2 tbody tr td:nth-of-type(2):before {
+        content: "Header 22";
+    }
+
+    .table2 tbody tr td:nth-of-type(3):before {
+        content: "Header 333";
+    }
+
+    table tbody tr td {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    table tbody tr td:not(:last-of-type) {
+        border-bottom: 1px dashed #ccc;
+    }
+}
