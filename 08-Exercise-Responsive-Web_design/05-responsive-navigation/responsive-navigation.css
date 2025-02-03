@@ -1,0 +1,56 @@
+@import url(../../styles/_styles.css);
+
+header {
+    background-color: white;
+    width: 85vw;
+    margin: 0.5em auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 2em;
+    align-items: center;
+    min-width: fit-content;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    gap: 0.8em;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #eee;
+    padding: 0.8em 1em;
+    text-align: center;
+    border-radius: 0.3em;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 750px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0.1em;
+        margin-top: 1.5em;
+    }
+
+    header {
+        display: block;
+    }
+
+    nav li, nav a {
+        width: 100%;
+    }
+}
