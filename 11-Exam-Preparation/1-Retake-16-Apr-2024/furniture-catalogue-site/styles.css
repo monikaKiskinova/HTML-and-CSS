@@ -55,3 +55,46 @@ header .header-section .more-btn {
     margin: 2em;
     border-radius: 0.3em;
 }
+
+
+/* article section styles*/
+.articles-section {
+    background-color: #60acc1; 
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.section-headline {
+    max-width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+}
+
+section.articles-container {
+    /* display: flex; */
+}
+
+article {
+    width: 30%;
+    display: flex; 
+    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+    /* box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2); */
+    border: 5px solid red;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+.article-content {
+    background-color: white;
+    padding: 2em;
+    /* position: absolute; */
+}
