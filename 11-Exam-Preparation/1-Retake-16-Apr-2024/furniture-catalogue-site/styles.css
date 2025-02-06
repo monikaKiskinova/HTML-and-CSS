@@ -60,6 +60,7 @@ header .header-section .more-btn {
 /* article section styles*/
 .articles-section {
     background-color: #60acc1; 
+    padding-bottom: 2em;
 }
 
 h2 {
@@ -77,10 +78,11 @@ h2 {
 }
 
 section.articles-container {
-    /* display: flex; */
+    display: flex;
+    justify-content: space-around;
 }
 
-article {
+.articles-section article {
     width: 30%;
     display: flex; 
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
@@ -96,5 +98,28 @@ h3 {
 .article-content {
     background-color: white;
     padding: 2em;
+    min-height: fit-content;
     /* position: absolute; */
+}
+
+
+
+/* furniture-types-section styles*/
+.furniture-types-section {
+    display: flex;
+}
+
+.furniture-types-section img {
+    width: 80px;
+}
+
+
+
+/* gallery section styles*/
+div.gallery-section {
+    background-color: #60acc1;
+}
+
+div.gallery-section img {
+    width: 20%;
 }
