@@ -114,12 +114,31 @@ div.article-content {
 
 
 /* furniture-types-section styles*/
-.furniture-types-section {
+div.furniture-types-section {
     display: flex;
+    justify-content: space-around;
+}
+
+div.furniture-types-section article {
+    max-width: 30%;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.furniture-types-section article h4 {
+    font-size: 1.2em;
+    padding-bottom: 0.8em;
+}
+
+div.furniture-types-section article p {
+    text-align: center;
 }
 
 .furniture-types-section img {
     width: 80px;
+    aspect-ratio: 1/1;
 }
 
 
