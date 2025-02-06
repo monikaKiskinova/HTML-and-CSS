@@ -1,12 +1,19 @@
 @import url(../../../styles/_styles.css);
 
+:root {
+    --white: #ffffff;
+    --blue: #60acc1;
+    --grey-font: #666668;
+    --white-header-btn: #e7eef0
+}
+
 html {
-    font: 14px/1.5 'PT Sans', Verdana,sans-serif;
+    font: 16px/1.5 'PT Sans', Verdana,sans-serif;
 }
 
 body {
     padding: 0;
-
+    background-color: var(--white);
 }
 
 header {
@@ -14,10 +21,11 @@ header {
     background-size: cover;
     background-position: center;
     padding-bottom: 5em;
+    text-shadow: 0.5px 1px 1px #5f5d5f;
 }
 
 .logo-img {
-    width: 4em;
+    width: 6em;
 }
 
 header a {
@@ -29,7 +37,7 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 12em;
+    padding: 2em 15em;
 }
 
 header ul {
@@ -50,7 +58,6 @@ div.header-section {
 }
 
 h1 {
-    font-size: 2.2em;
     padding: 0.5em;
 }
 
@@ -58,19 +65,27 @@ h1 {
     font-style: italic;
 }
 
+.header-section p {
+    font-size: 1.2em;
+}
+
 header .header-section .more-btn {
-    background-color: white;
-    color: #5f5d5f;
+    background-color: var(--white-header-btn);
+    /* color: #5f5d5f; */
+    color: var(--grey-font);
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 0.5em 1em;
     margin: 2em;
     border-radius: 0.3em;
+    text-shadow: none;
 }
 
 
+
 /* article section styles*/
+
 .articles-section {
-    background-color: #60acc1; 
+    background-color: var(--blue); 
     padding-bottom: 2em;
 }
 
@@ -98,10 +113,9 @@ section.articles-container {
     width: 35%;
     max-height: 300px;
     display: flex; 
-    /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
-    /* box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2); */
-    border-right: 8px solid #60acc1;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    box-shadow: -15px 0px 15px -5px rgba(0,0,0,.3), 15px 0px 15px -5px rgba(0,0,0,.3), 0px -15px 15px -5px rgba(0,0,0,.3), 0px 15px 15px -5px rgba(0,0,0,.3);
+    border-right: 8px solid var(--blue);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); */
 }
 
 .articles-section article img {
@@ -116,7 +130,7 @@ h3 {
 }
 
 div.article-content {
-    background-color: white;
+    background-color: var(--white);
     padding: 2em;
     min-width: 40%;
     min-height: fit-content;
@@ -133,12 +147,12 @@ div.article-content {
 div.furniture-types-section {
     display: flex;
     justify-content: space-around;
-    color: #666668;
+    color: var(--grey-font);
+    padding: 0 1em;
 }
 
 div.furniture-types-section article {
-    /* max-width: 25%; */
-    max-width: 395px;
+    max-width: 30%;
     padding: 2vw;
     display: flex;
     flex-direction: column;
@@ -163,7 +177,7 @@ div.furniture-types-section article p {
 
 /* gallery section styles*/
 div.gallery-section {
-    background-color: #60acc1;
+    background-color: var(--blue);
 }
 
 section.gallery-container {
@@ -175,9 +189,10 @@ section.gallery-container {
 }
 
 div.gallery-section img {
-    width: 25%;
-    /* box-shadow: 5px -5px 3px -3px rgba(0, 0, 0, 0.5), -5px 5px 3px -3px rgba(0, 0, 0, 0.5); */ 
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    /* width: 25%; */
+    max-width: 350px;
+    box-shadow: -15px 0px 15px -5px rgba(0,0,0,.3), 15px 0px 15px -5px rgba(0,0,0,.3), 0px -15px 15px -5px rgba(0,0,0,.3), 0px 15px 15px -5px rgba(0,0,0,.3);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); */
 }
 
 
@@ -185,7 +200,7 @@ div.gallery-section img {
 /* about us section styles*/
 
 div.aboout-section {
-    color: #666668;
+    color: var(--grey-font);
 }
 
 div.aboout-section h2 {
@@ -196,7 +211,7 @@ div.aboout-section > p {
     width: 60%;
     text-align: center;
     margin: auto;
-    padding-bottom: 2em;
+    padding-bottom: 2.5em;
 }
 
 
@@ -204,8 +219,8 @@ div.aboout-section > p {
 /* footer styling */
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #2d333c;
+    color: var(--white);
     padding: 1em;
     justify-items: center;
 }
