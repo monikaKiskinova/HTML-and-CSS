@@ -84,11 +84,17 @@ section.articles-container {
 }
 
 .articles-section article {
-    width: 30%;
+    width: 35%;
+    max-height: 300px;
     display: flex; 
     /* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
     /* box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2); */
-    border: 5px solid red;
+    border-right: 8px solid #60acc1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.articles-section article img {
+    max-width: 90%;
 }
 
 h3 {
@@ -96,11 +102,13 @@ h3 {
     text-transform: capitalize;
 }
 
-.article-content {
+div.article-content {
     background-color: white;
     padding: 2em;
+    min-width: 40%;
     min-height: fit-content;
-    /* position: absolute; */
+    position: relative;
+    left: -30%;
 }
 
 
