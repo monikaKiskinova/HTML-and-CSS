@@ -1,7 +1,12 @@
 @import url(../../../styles/_styles.css);
 
+html {
+    font: 14px/1.5 'PT Sans', Verdana,sans-serif;
+}
+
 body {
     padding: 0;
+
 }
 
 header {
@@ -49,8 +54,14 @@ h1 {
     padding: 0.5em;
 }
 
+.italic {
+    font-style: italic;
+}
+
 header .header-section .more-btn {
     background-color: white;
+    color: #5f5d5f;
+    font-weight: bold;
     padding: 5px 10px;
     margin: 2em;
     border-radius: 0.3em;
@@ -98,8 +109,10 @@ section.articles-container {
 }
 
 h3 {
-    font-size: 1.2em;
-    text-transform: capitalize;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
 div.article-content {
@@ -109,6 +122,9 @@ div.article-content {
     min-height: fit-content;
     position: relative;
     left: -30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -117,10 +133,12 @@ div.article-content {
 div.furniture-types-section {
     display: flex;
     justify-content: space-around;
+    color: #666668;
 }
 
 div.furniture-types-section article {
-    max-width: 30%;
+    /* max-width: 25%; */
+    max-width: 395px;
     padding: 2vw;
     display: flex;
     flex-direction: column;
@@ -137,7 +155,7 @@ div.furniture-types-section article p {
 }
 
 .furniture-types-section img {
-    width: 80px;
+    width: 90px;
     aspect-ratio: 1/1;
 }
 
@@ -160,4 +178,34 @@ div.gallery-section img {
     width: 25%;
     /* box-shadow: 5px -5px 3px -3px rgba(0, 0, 0, 0.5), -5px 5px 3px -3px rgba(0, 0, 0, 0.5); */ 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* about us section styles*/
+
+div.aboout-section {
+    color: #666668;
+}
+
+div.aboout-section h2 {
+    text-transform: uppercase;
+}
+
+div.aboout-section > p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+
+
+/* footer styling */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    justify-items: center;
 }
