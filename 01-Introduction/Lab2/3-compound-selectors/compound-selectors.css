@@ -1,0 +1,9 @@
+p.highlighted {
+    color: lightskyblue;
+    font-size: 1.1em;
+}
+
+a[href="https://softuni.bg/"] {
+    display: block;
+    color: orange;
+}

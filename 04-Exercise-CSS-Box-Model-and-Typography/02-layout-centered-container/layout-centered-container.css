@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+section {
+    margin: 25px;
+}
+
+.outer-container {
+    border: 2px solid green;
+}
+
+.container {
+    border: 2px solid blue;
+    width: 80%;
+    margin: 25px auto;
+}
+
+section {
+    border: 2px solid black;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}

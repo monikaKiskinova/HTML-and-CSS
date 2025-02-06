@@ -1,0 +1,87 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffbf69;
+    /* background-color: #ebba21; */
+}
+
+header.main {
+    background-color: darkgray;
+    margin-bottom: 20px;
+
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navbar {
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-section {
+    max-width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    /* box-sizing: border-box; */
+}
+
+article {
+    width: 25vw; 
+    /* height: 350px; */
+    min-height: auto;
+    text-align: center;
+    padding: 10px;
+    /* border: 6px solid darkgray; */
+    background-color: rgb(156, 90, 186);
+    /* background-color: rgba(65,57,116,255); */
+    background-size: 50%; 
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 8px black;
+    /* box-shadow: 0px 0px 8px black; */
+}
+
+footer {
+    background-color: darkgray;
+    /* position: absolute;  */
+    position: relative;
+    bottom: 0; 
+    width: 100%;
+    min-height: 60px;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* nav a { */
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    margin: 10px 0 0 20px;
+}
+
+section header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    margin: 20px;
+}
