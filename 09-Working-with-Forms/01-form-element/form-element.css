@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 11pt/1.5 Verdana, sans-serif;
+}
+
+body, input, textarea, label, search {
+    font: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 2vw;
+}
+
+
+
+h2 {
+    font-size: 1.2em;
+}
+
+section.header-section {
+    padding-bottom: 2em;
+}
+
+section.code-section {
+    background-color: #eeeeee;
+    margin-top: 1.5em;
+    margin-bottom: 1.8em;
+    padding-top: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+}
+
+article {
+    margin-bottom: 2em;
+}
+
+input {
+    border: 2px solid #ccc;
+    border-radius: 0.2em;
+}
+
+input[type="search"] {
+    line-height: 2em;
+}
