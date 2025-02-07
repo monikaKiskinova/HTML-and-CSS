@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 Verdana,sans-serif;
+}
+
+body, input, label, search, textarea, button {
+    box-sizing: inherit;
+    font: inherit;
+}
+
+body {
+    background-color: #eee;
+    padding: 2vw;
+}
