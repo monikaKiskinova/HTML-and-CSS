@@ -1,0 +1,78 @@
+@import url(../_styles.css);
+
+div.container {
+    background: white;
+    min-width: fit-content;
+    width: 460px;
+    padding: 2.5em 4em;
+    margin: 5em auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.2em;
+}
+
+h1 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    padding-right: 4em;
+    display: inline-block;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 0.2em;
+    padding: 0.8em;
+}
+
+section.label-and-input-container {
+    margin-bottom: 1em;
+    position: relative;
+}
+
+button {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    border-radius: 0.2em;
+    width: 100%;
+    padding: 1.2em;
+    margin: 1.5em 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.2em;
+    padding-top: 0.6em;
+    padding-right: 1.5em;
+}
+
+label,
+button {
+    font-weight: bold;
+}
+
+label:has(+ input:required)::after {
+    content: '*';
+    color: red;
+    padding-left: 0.3em;
+}
+
+span {
+    display: block;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 11px;
+    margin-top: 0.2em;
+    width: 50ch;
+}
+
+i.icon {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    font-size: 14px;
+}
