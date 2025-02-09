@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&display=swap');
+
+/* reset styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 'Inter', Verdana, sans-serif;
+}
+
+body,
+input,
+label,
+search,
+textarea,
+button {
+    box-sizing: inherit;
+    font: inherit;
+}
+
+body {
+    background-color: black;
+    padding: 4vw;
+    height: 100dvh;
+}
+
+
+
+/* layout styles*/
+main {
+    max-width: 60%;
+    background-color: #85dcff;
+    padding: 2em;
+    margin: auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+div.main-content {
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em; 
+}
+
+h1 {
+    font-size: 3em;
+    width: 15ch;
+    line-height: 1em;
+}
+
+section.btn-container {
+    display: flex;
+    gap: 1em;
+}
+
+section.btn-container a {
+    text-decoration: none;
+    color: black;
+    padding: 0.8em 2em;
+    border-radius: 0.2em;
+}
+
+a.get-started {
+    background-color: #42aa59;
+    border: 1px solid black;
+}
+
+a.learn-more {
+    background-color: white;
+}
+
+.img-container {
+    width: 35%;
+    /* background-color: grey; */
+    /* padding: 2.5em 0; */
+    margin: 2.5em 0;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
