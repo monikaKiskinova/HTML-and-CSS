@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+/* reset styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px/1.5 Kode Mono, Verdana, sans-serif;
+    color: #9da4a8;
+}
+
+body,
+input,
+label,
+search,
+textarea,
+button {
+    box-sizing: inherit;
+    font: inherit;
+}
+
+body {
+    background-color: #c1bdba;
+    padding: 2vw;
+    height: 100dvh;
+}
+
+
+
+/* layout styles*/
+
+div.container {
+    background-color: #24333c;
+    padding: 2em;
+    width: 600px;
+    margin: 1.5em auto;
+    border-radius: 0.2em;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+input {
+    background-color: inherit;
+    color: white;
+    margin-bottom: 2em;
+    padding-left: 0.6em;
+    padding-top: 0.2em;
+    border: 1px solid #9fb2af;
+}
+
+button {
+    background-color: #1ab188;
+    border: none;
+    color: white;
+    padding: 0.3em;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+ 
+
+
+
+label {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    margin: 1em;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+a.btn {
+    text-decoration: none;
+    padding: 0.6em;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+a.sign-up {
+    background: #1ab188;
+    color: white;
+}
+
+a.log-in {
+    background: #435359;
+    color: inherit;
+}
+
+section.sign-buttons {
+    display: flex;
+}
+
+section.names-section {
+    display: flex;
+    gap: 1em;
+}
+
+section.names-section input[type="text"] {
+    width: 20ch;
+}
+
+input {
+
+}
+
+input:focus {
+    outline: none;
+    border-color: #1ab188;
+}
