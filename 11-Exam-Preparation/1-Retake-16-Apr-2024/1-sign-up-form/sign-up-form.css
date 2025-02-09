@@ -110,14 +110,15 @@ section.names-section {
 }
 
 section.names-section input[type="text"] {
-    width: 20ch;
-}
-
-input {
-
+    width: 50%;
 }
 
 input:focus {
     outline: none;
     border-color: #1ab188;
+}
+
+a.log-in:hover {
+    background: #179a77;
+    color: white;
 }
