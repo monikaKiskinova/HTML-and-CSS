@@ -1,0 +1,36 @@
+
+@media (max-width:600px) {
+    nav ul {
+        display: none;
+    }
+
+
+    .checkbtn {
+        display: block;
+        order: 1;
+    }
+
+
+
+    .fa-heart::before {
+        position: absolute;
+        left: -185px;
+        bottom: -15px;
+    }
+    .about {
+        display: flex;
+    }
+    .about-header {
+        bottom: -115px;
+    }
+    .about-text {
+        margin-left: 100px;
+    }
+
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
