@@ -13,9 +13,11 @@
 
 
     .fa-heart::before {
-        position: absolute;
-        left: -185px;
-        bottom: -15px;
+        position: relative;
+        /* left: -185px; */
+        /* bottom: -15px; */
+        /* left: -3.5em; */
+        left: -350%;
     }
     .about {
         display: flex;
