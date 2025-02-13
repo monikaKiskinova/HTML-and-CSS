@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --green: #79b630;
+}
+
+/*reset styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 'Poppins', sans-serif;
+    color: #636669;
+}
+
+body {
+    box-sizing: inherit;
+    font: inherit; 
+    max-height: 100dvh;
+    background-color: #eee;
+}
+
+img {
+    max-width: 100%;
+    /* height: auto; */
+    aspect-ratio: 1/0.77;
+}
+
+
+
+.container {
+    background-color: white;
+    width: 95%;
+    margin: 2em auto;
+    padding: 1.5em 6em;
+    display: flex;
+    gap: 3em;
+    /* box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.3); */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 20px 46px 15px, rgba(0, 0, 0, 0.22) 0px 8px 16px;
+}
+
+.img-container {
+    display: block;
+    width: 50%;
+}
+
+
+.headings-container {
+    border-left: 5px solid var(--green);
+    padding: 3em;
+}
+.headings-container, 
+.text-container {
+    background-color: #eee;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-bottom: 2em;
+    color: var(--green);
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3.2em;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.container2 {
+    width: 75%;
+}
+.container2 > p {
+    padding: 1em;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+.text-container {
+    padding: 1.8em;
+    padding-bottom: 2.5em;
+}
+.btn-container {
+    display: flex;
+    align-content: stretch;
+    margin-bottom: 1em;
+}
+.btn-container a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.mission-btn {
+    flex-grow: 1;
+    color: white;
+    background-color: var(--green);
+    padding: 0.3em;
+    text-align: center;
+}
+.vision-btn {
+    flex-grow: 1;
+    color: var(--green);
+    padding: 0.3em;
+    text-align: center;
+}
+
+.text-container {
+    /* font-weight: 400; */
+    font-size: 14px;
+    line-height: 1.2;
+}
